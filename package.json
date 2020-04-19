@@ -1,0 +1,35 @@
+{
+  "name": "mini",
+  "version": "1.0.0",
+  "description": "Mini Program Engineering Configuration",
+  "main": "src/app.js",
+  "scripts": {
+    "eslint": "eslint --ext .js,wxs src/ cloud/",
+    "stylelint": "stylelint 'src/**/*.wxss'",
+    "prettier": "prettier --check '*/**.{wxml,json}'",
+    "prettier:fix": "prettier --write '*/**.{wxml,json}'",
+    "lint": "npm run eslint && npm run stylelint && npm run prettier",
+    "fix": "npm run eslint -- --fix && npm run stylelint -- --fix && npm run prettier:fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "wx-promise-pro": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^6.8.0",
+    "@types/prettier": "^2.0.0",
+    "@types/stylelint": "^9.10.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.4",
+    "stylelint": "^13.3.2",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "config": {},
+  "keywords": [],
+  "author": "zhilidali@qq.com",
+  "license": "MIT"
+}
