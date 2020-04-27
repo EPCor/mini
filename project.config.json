@@ -1,7 +1,7 @@
 {
 	"appid": "",
 	"compileType": "miniprogram",
-	"projectname": "Mini Program Engineering Configuration",
+	"projectname": "MiniProgramEngineeringConfiguration",
 	"libVersion": "2.10.4",
 	"miniprogramRoot": "src/",
 	"cloudfunctionRoot": "cloud/",
@@ -13,6 +13,7 @@
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
+		"nodeModules": true,
 		"autoAudits": false,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
@@ -23,10 +24,14 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		},
-		"nodeModules": true
+		}
 	},
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"scripts": {
+		"beforeCompile": "npm run lint",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
 	"condition": {}
 }

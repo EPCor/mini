@@ -1,4 +1,27 @@
 {
-  "pages": ["pages/index/index"],
+  "pages": ["pages/index/index", "pages/me/me"],
+  "window": {
+    "navigationBarTitleText": "Mini Program Engineering Configuration",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "Home",
+        "pagePath": "pages/index/index",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "text": "Me",
+        "pagePath": "pages/me/me"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地理位置后，可以为您提供更好的体验"
+    }
+  },
   "sitemapLocation": "sitemap.json"
 }
