@@ -1,37 +1,37 @@
 {
-	"appid": "",
-	"compileType": "miniprogram",
-	"projectname": "MiniProgramEngineeringConfiguration",
-	"libVersion": "2.10.4",
-	"miniprogramRoot": "src/",
-	"cloudfunctionRoot": "cloud/",
-	"setting": {
-		"urlCheck": true,
-		"es6": true,
-		"postcss": true,
-		"preloadBackgroundData": false,
-		"minified": true,
-		"newFeature": true,
-		"coverView": true,
-		"nodeModules": true,
-		"autoAudits": false,
-		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false,
-		"checkInvalidKey": true,
-		"checkSiteMap": true,
-		"uploadWithSourceMap": true,
-		"babelSetting": {
-			"ignore": [],
-			"disablePlugins": [],
-			"outputPath": ""
-		}
-	},
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
-	"scripts": {
-		"beforeCompile": "npm run lint",
-		"beforePreview": "",
-		"beforeUpload": ""
-	},
-	"condition": {}
+  "appid": "",
+  "compileType": "miniprogram",
+  "projectname": "MiniProgramEngineeringConfiguration",
+  "libVersion": "2.10.4",
+  "miniprogramRoot": "src/",
+  "cloudfunctionRoot": "cloud/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "scripts": {
+    "beforeCompile": "npm run lint",
+    "beforePreview": "",
+    "beforeUpload": ""
+  },
+  "condition": {}
 }
